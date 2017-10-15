@@ -1,0 +1,58 @@
+---
+title: 'HW1: Progress Journal and 5 R Examples'
+author: 'Ahmet Tuncel - BDA 503 - Fall 2017'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Interesting R Examples
+
+
+###1) [Wine Data Set](http://archive.ics.uci.edu/ml/datasets/Wine)
+
+These data are the results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines. 
+
+I think that the initial data set had around 30 variables, but for some reason I only have the 13 dimensional version. I had a list of what the 30 or so variables were, but a.) I lost it, and b.), I would not know which 13 variables are included in the set. 
+
+The attributes are (dontated by Riccardo Leardi, riclea '@' anchem.unige.it ) 
+
+1. Alcohol 
+2. Malic acid 
+3. Ash 
+4. Alcalinity of ash 
+5. Magnesium 
+6. Total phenols
+7. Flavanoids 
+8. Nonflavanoid phenols
+9. Proanthocyanins 
+10. Color intensity
+11. Hue 
+12. OD280/OD315 of diluted wines 
+13. Proline 
+
+
+###2) [Poker Hand Data Set](http://archive.ics.uci.edu/ml/datasets/Poker+Hand)
+
+
+Each record is an example of a hand consisting of five playing cards drawn from a standard deck of 52. Each card is described using two attributes (suit and rank), for a total of 10 predictive attributes. There is one Class attribute that describes the "Poker Hand". The order of cards is important, which is why there are 480 possible Royal Flush hands as compared to 4. 
+
+
+###3) [Appliances energy prediction Data Set](http://archive.ics.uci.edu/ml/datasets/Appliances+energy+prediction)
+The data set is at 10 min for about 4.5 months. The house temperature and humidity conditions were monitored with a ZigBee wireless sensor network. Each wireless node transmitted the temperature and humidity conditions around 3.3 min. Then, the wireless data was averaged for 10 minutes periods. The energy data was logged every 10 minutes with m-bus energy meters. Weather from the nearest airport weather station (Chievres Airport, Belgium) was downloaded from a public data set from Reliable Prognosis (rp5.ru), and merged together with the experimental data sets using the date and time column. Two random variables have been included in the data set for testing the regression models and to filter out non predictive attributes (parameters). 
+
+For more information about the house, data collection, R scripts and figures, please refer to the paper and to the following github repository: 
+
+
+
+###4) [YouTube Faces Dataset with Facial Keypoints](https://www.kaggle.com/selfishgene/youtube-faces-with-facial-keypoints)
+
+Kaggle datasets platform and it's integration with kernels is really amazing, but it yet to have a videos dataset (at least not that I'm aware of). Videos are special in the fact that they contain rich spatial patterns (in this case images of human faces) and rich temporal patterns (in this case how the faces move in time). I was also inspired by this dataset uploaded by DrGuillermo and decided to seek out a dataset that will be similar but also add something extra.
+
+###5) [The Art of Data Science](https://leanpub.com/artofdatascience)
+
+This book describes the process of analyzing data. The authors have extensive experience both managing data analysts and conducting their own data analyses, and this book is a distillation of their experience in a format that is applicable to both practitioners and managers in data science. Printed copies are available through Lulu.
+
+
