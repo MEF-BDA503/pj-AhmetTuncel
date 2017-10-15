@@ -1,6 +1,6 @@
 ---
 title: 'HW1: Progress Journal and 5 R Examples'
-author: 'Ahmet Tunçel - BDA 503 - Fall 2017'
+author: 'Ahmet Tuncel - BDA 503 - Fall 2017'
 output: html_document
 ---
 
