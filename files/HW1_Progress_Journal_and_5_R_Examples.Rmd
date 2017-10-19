@@ -17,7 +17,9 @@ knitr::opts_chunk$set(echo = TRUE)
 Here is a first exploratory analysis of the competition dataset. We are provided with a list of real estate properties in three counties (Los Angeles, Orange and Ventura, California) data in 2016.
 
 
+###2) [Personalised Medicine - EDA with tidy R](https://www.kaggle.com/headsortails/personalised-medicine-eda-with-tidy-r)
 
+This is an early Exploratory Data Analysis for the Personalized Medicine: Redefining Cancer Treatment challenge. I will be using ggplot2 and the tidyverse tools to study and visualise the structures in the data.
 
 
 
