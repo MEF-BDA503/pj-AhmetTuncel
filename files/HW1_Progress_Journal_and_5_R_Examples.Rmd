@@ -16,9 +16,6 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Here is a first exploratory analysis of the competition dataset. We are provided with a list of real estate properties in three counties (Los Angeles, Orange and Ventura, California) data in 2016.
 
-Zillow provides a “Zestimate”, which is an estimated property value.
-
-Our task in this competition is to predict the the difference between the actual price and the estimate of the price (Zestimate). So, in fact we are predicting, where Zillow’s Zestimate will be good, and where it will be bad.
 
 
 ###2) [Personalised Medicine - EDA with tidy R](https://www.kaggle.com/headsortails/personalised-medicine-eda-with-tidy-r)
