@@ -20,32 +20,14 @@ Zillow provides a “Zestimate”, which is an estimated property value.
 
 Our task in this competition is to predict the the difference between the actual price and the estimate of the price (Zestimate). So, in fact we are predicting, where Zillow’s Zestimate will be good, and where it will be bad.
 
-So, far so good. However, we don’t have to predict a single value, but instead for 6 different time points (from October 2016 to December 2017) (see sample submission)
-
-The dataset consists of information about 2.9 million properties and is grouped into 2 files:
-
-properties_2016.csv (containing information about the properties themselves)
-train_2016.csv (containing information about the transcations)
-Let’s look at the dataset:
-
 
 ###2) [Personalised Medicine - EDA with tidy R](https://www.kaggle.com/headsortails/personalised-medicine-eda-with-tidy-r)
 
 This is an early Exploratory Data Analysis for the Personalized Medicine: Redefining Cancer Treatment challenge. I will be using ggplot2 and the tidyverse tools to study and visualise the structures in the data.
 
-We have been challenged to automatically classify genetic mutations that contribute to cancer tumor growth (so-called “drivers”) in the presence of mutations that are don’t affect the tumors (“passengers”).
-
-The data comes in 4 different files. Two csv files and two text files:
-
-training/test variants: These are csv catalogues of the gene mutations together with the target value Class, which is the (manually) classified assessment of the mutation. The feature variables are Gene, the specific gene where the mutation took place, and Variation, the nature of the mutation. The test data of course doesn’t have the Class values. This is what we have to predict. These two files each are linked through an ID variable to another file each, namely:
-
-training/test text: Those contain an extensive description of the evidence that was used (by experts) to manually label the mutation classes.
-
-The text information holds the key to the classification problem and will have to be understood/modelled well to achieve a useful accuracy.
-
 ###3) [Understanding Support Vector Machine algorithm from examples (along with code)](https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/)
 
-“Support Vector Machine” (SVM) is a supervised machine learning algorithm which can be used for both classification or regression challenges. However,  it is mostly used in classification problems. In this algorithm, we plot each data item as a point in n-dimensional space (where n is number of features you have) with the value of each feature being the value of a particular coordinate. Then, we perform classification by finding the hyper-plane that differentiate the two classes very well (look at the below snapshot).
+“Support Vector Machine” (SVM) is a supervised machine learning algorithm which can be used for both classification or regression challenges. However,  it is mostly used in classification problems. In this algorithm, we plot each data item as a point in n-dimensional space (where n is number of features you have) with the value of each feature being the value of a particular coordinate.
 
 
 ###4) [Is it faster to take a bike or taxi in NYC?](https://github.com/toddwschneider/nyc-taxi-data/tree/master/citibike_comparison)
