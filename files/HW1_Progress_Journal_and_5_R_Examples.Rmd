@@ -22,4 +22,6 @@ Here is a first exploratory analysis of the competition dataset. We are provided
 This is an early Exploratory Data Analysis for the Personalized Medicine: Redefining Cancer Treatment challenge. I will be using ggplot2 and the tidyverse tools to study and visualise the structures in the data.
 
 
+###3) [Understanding Support Vector Machine algorithm from examples (along with code)](https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/)
 
+“Support Vector Machine” (SVM) is a supervised machine learning algorithm which can be used for both classification or regression challenges. However,  it is mostly used in classification problems. In this algorithm, we plot each data item as a point in n-dimensional space (where n is number of features you have) with the value of each feature being the value of a particular coordinate.
