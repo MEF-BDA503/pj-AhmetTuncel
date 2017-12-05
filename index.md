@@ -1,6 +1,6 @@
 # Example Progress Journal
 
-## Week 3 (Nov 21)
+## Week 5 (Nov 21)
 
 + [Here](files/Diamonds.html) is my assignment. 
 
