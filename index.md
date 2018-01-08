@@ -1,5 +1,9 @@
 # Example Progress Journal
 
+## Final Data Set (OSYM)
+
++ [Here](files/2017_OSYM_academic_positions.RData) is my Final data set. 
+
 ## Week 5 (Nov 21)
 
 + [Here](files/Diamonds.html) is my assignment. 
